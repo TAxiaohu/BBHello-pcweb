@@ -1,0 +1,294 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>51二胎-海外生育权威机构 | 泰国试管婴儿 | 三美泰独家授权</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=2.0">
+        <meta name="description" content="51二胎医疗海外试管婴儿,泰国权威医院,三美泰独家授权。运用顶尖基因筛查技术,大大降低流产率。第三代aCGH\PGD\PGS技术,筛查300种以上遗传疾病,助您好孕……">
+        <meta name="keywords" content="51二胎">
+        <meta name="author" content="51二胎">
+        <!-- Site CSS -->
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+          <script src="../js/lib/html5shiv.min.js"></script>
+          <script src="../js/lib/respond.min.js"></script>
+        <![endif]-->
+        <!-- <link rel="canonical" href="http://www.bootcss.com/"> -->
+        <script src="../js/lib/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/lib/handlebars.js"></script>
+        <script type="text/javascript" src="../js/service.js"></script>
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/page.css">
+        <link rel="stylesheet" href="../css/news.css">
+    </head>
+    <body  onload="anchorLink()">
+        <div id="page-news">
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand hidden-sm" >
+                            <img alt="51二胎" src="../img/logo-white.png">
+                        </a>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right hidden-xs" id="register"> 
+                            <li><a href="register.html">注册&nbsp;&nbsp;|</a></li>
+                            <li><a href="login.html">&nbsp;&nbsp;登录</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right hidden-xs" id="loged" style="display: none;"> 
+                            <li><a id="my-name" href="my.html" style="color: #fff;"></a></li>
+                            <li><div class="avatar"><img id="my-avatar" src="../img/avatar.png" width="40px"><div class="down-triangle"></div></div></li>
+                        </ul>
+                        <div class="container" style="position: absolute;">
+                            <div class="down-menu">
+                                <div class='up-triangle'></div>
+                                <a href='my.html#order' onclick="anchorLink()">我的订单</a>
+                                <a href='my.html#account' onclick="anchorLink()">账户设置</a>
+                                <a onclick="quit()">退出</a>
+                            </div>
+                        </div>
+                        <ul class="nav navbar-nav navbar-right hidden-xs" id="main-nav">
+                            <li><a href="../index.html">首页<span class="sr-only">(current)</span></a></li>
+                            <!-- <li><a href="seller.html">套餐</a></li> -->
+                            <!-- <li><a href="hospital.html">医院</a></li> -->
+                            <li><a href="case.html">案例</a></li>
+                            <li class="active"><a href="news.html">资讯</a></li>
+                            <li><a href="about.html">业务咨询</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav visible-xs" id="nav-list">
+                            <li><a href="../index.html">首页<span class="sr-only">(current)</span></a></li>
+                            <!-- <li><a href="seller.html">套餐</a></li> -->
+                            <!-- <li><a href="hospital.html">医院</a></li> -->
+                            <li><a href="case.html">案例</a></li>
+                            <li class="active"><a href="news.html">资讯</a></li>
+                            <li><a href="about.html">业务咨询</a></li>
+                            <li class="sm-view-hidden"><a href="view/register.html">注册</a></li>
+                            <li class="sm-view-hidden"><a href="view/login.html">登录</a></li>
+                            <li class="sm-view-show" style="display:none"><a href="view/my.html">我的</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+            <div class="container wrap">
+                <div class="left">
+                    <div class="row">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active"><a href="#hot" aria-controls="hot" role="tab" data-toggle="tab" onclick="hotEvt()">热点资讯</a><div class="down-triangle"></div></li>
+                            <li role="presentation"><a href="#news" aria-controls="news" role="tab" data-toggle="tab" onclick="newsEvt()">新闻报道</a><div class="down-triangle"></div></li>
+                            <li role="presentation"><a href="#tech" aria-controls="tech" role="tab" data-toggle="tab" onclick="techEvt()">试管婴儿技术</a><div class="down-triangle"></div></li>
+                        </ul>
+                    </div>
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane fade in active" id="hot">
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="news">
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="tech">
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <h4>相关资讯</h4>
+                    <ul style="padding-left: 20px;" id="related-news">
+                    </ul>
+                </div>
+            </div>
+            <div class="pages container color-gray" style="padding: 0; line-height: 30px;margin-top:15px">
+                <div class="sellers-amount">共 <span class="news-sum">8</span> 个资讯</div>
+                <nav>
+                    <ul class="pagination">
+                    </ul>
+                </nav>
+            </div>
+            <div class="container" id="customer-service" align="center" style="background-color: #fff;">
+                <img src="../img/logo-white.png">
+                <h3>在线客服</h3>
+                <div style="padding: 0 15px;">
+                <ul class="list-unstyled">
+                    <li><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2532535151&site=qq&menu=yes">客服01号</a></li>
+                    <li><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2602605151&site=qq&menu=yes">客服02号</a></li>
+                </ul>
+                </div>
+                <p class="color-gray">客服热线</p>
+                <p class="color-blue">400-136-5151</p>
+            </div>
+            <div id="mob-ctm-svc">
+                <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2532535151&site=qq&menu=yes"><img src="../img/pic-ctm-svc.png"></a>
+            </div>
+            <footer>
+                <div class="footer-top container">
+                    <div class="col-xs-3">
+                        <h4>关于我们</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="about.html#about">51二胎简介</a></li>
+                            <li><a href="about.html#contact">联系我们</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-3">
+                        <h4>加入我们</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="about.html#employ">招聘职位</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-3">
+                        <h4>网站条款</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="terms.html#member">会员条款</a></li>
+                            <li><a href="terms.html#copyright">版权声明</a></li>
+                            <li><a href="terms.html#relief">免责声明</a></li>
+                            <li><a href="terms.html#web">网站声明</a></li>
+                            <li><a href="terms.html#secret">隐私条款</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-3" style="padding-right:0">
+                        <h4>联系我们</h4>
+                        <ul class="list-unstyled">
+                            <li><a style="cursor: default;">电话 400-136-5151</a></li>
+                            <li><a style="cursor: default;">QQ 2532535151</a></li>
+                            <li><a style="cursor: default;">QQ 2602605151</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-3 footer-qrcode">
+                        <h4>微信公众号</h4>
+                        <img class="qrcode-img" src="../img/qrcode.jpg">
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="container">
+                        <div class="brand-info">
+                            <img src="../img/logo-white.png">
+                            <p>Copyright &copy; 2015 - 2016, 51二胎&reg;, All Rights Reserved. <a href="http://www.miibeian.gov.cn/">粤ICP备16027439号</a></p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script id="pageAriticle" type="text/x-handlebars-template">
+            {{#items}}
+            <div class="row news-block">
+                <div class="news-img col-xs-3" style="padding: 20px 0 20px 20px;">
+                    <img src={{imageUrl}} width="100%">
+                </div>
+                <div class="col-xs-9 news-info">
+                    <h4><a class="go-detail" f-target="newsdetail.html" id={{contentId}}>{{title}}</a></h4>
+                    <p class="color-gray">{{publicTime}}</p>
+                    <p class="multiline-nowrap" style="color:#666;">{{summary}}</p>
+                </div> 
+            </div>
+            {{/items}}
+        </script>
+        <script id="relatedNews" type="text/x-handlebars-template">
+            {{#items}}
+            <li><a class="go-detail" f-target="newsdetail.html" id={{contentId}}>{{title}}</a></li>
+            {{/items}}
+        </script>
+        <script type="text/javascript" src="../js/lib/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../js/main.js"></script>
+        
+        <script type="text/javascript">
+            $(function(){
+                // 填充热门资讯模板
+                hotEvt();
+                goDetail();
+            });
+            function hotEvt() {
+                hotArticleApi(0,function(res) {
+                    if (res.code === '200' && res.data) {
+                        var pageHotAriticle = $("#pageAriticle").html();
+                        var hTemplate = Handlebars.compile(pageHotAriticle);
+                        var hHtml = hTemplate(res.data);
+                        $("#hot").html(hHtml);
+                        var hrTemplate = Handlebars.compile($("#relatedNews").html());
+                        $("#related-news").html(hrTemplate(res.data));
+                        $(".news-sum").html(res.data.total);
+                        goDetail();
+                        pagination(res.data.total);
+                        $(".pagination li a").click(function(){
+                            var offset = parseInt($(this).attr("offsetid"));
+                            hotArticleApi(offset,function(res){
+                                if (res.code === '200' && res.data) {
+                                    var pageHotAriticle = $("#pageAriticle").html();
+                                    var hTemplate = Handlebars.compile(pageHotAriticle);
+                                    var hHtml = hTemplate(res.data);
+                                    $("#hot").html(hHtml);
+                                    var hrTemplate = Handlebars.compile($("#relatedNews").html());
+                                    $("#related-news").html(hrTemplate(res.data));
+                                    goDetail();
+                                }
+                            });
+                        });
+                    }
+                });
+            }
+            function newsEvt(){
+                newsArticleApi(0,function(res) {
+                    if (res.code === '200' && res.data) {
+                        var pageNewsAriticle = $("#pageAriticle").html();
+                        var nTemplate = Handlebars.compile(pageNewsAriticle);
+                        var nHtml = nTemplate(res.data);
+                        $("#news").html(nHtml);
+                        var hrTemplate = Handlebars.compile($("#relatedNews").html());
+                        $("#related-news").html(hrTemplate(res.data));
+                        $(".news-sum").html(res.data.total);
+                        goDetail();
+                        pagination(res.data.total);
+                        $(".pagination li a").click(function(){
+                            var offset = parseInt($(this).attr("offsetid"));
+                            newsArticleApi(offset,function(res){
+                                if (res.code === '200' && res.data) {
+                                    var pageNewsAriticle = $("#pageAriticle").html();
+                                    var nTemplate = Handlebars.compile(pageNewsAriticle);
+                                    var nHtml = nTemplate(res.data);
+                                    $("#news").html(nHtml);
+                                    var hrTemplate = Handlebars.compile($("#relatedNews").html());
+                                    $("#related-news").html(hrTemplate(res.data));
+                                    goDetail();
+                                }
+                            });
+                        });
+                    }
+                });
+            }
+            function techEvt(){
+                techArticleApi(0,function(res) {
+                    if (res.code === '200' && res.data) {
+                        var pageTechAriticle = $("#pageAriticle").html();
+                        var tTemplate = Handlebars.compile(pageTechAriticle);
+                        var tHtml = tTemplate(res.data);
+                        $("#tech").html(tHtml);
+                        var hrTemplate = Handlebars.compile($("#relatedNews").html());
+                        $("#related-news").html(hrTemplate(res.data));
+                        $(".news-sum").html(res.data.total);
+                        goDetail();
+                        pagination(res.data.total);
+                        $(".pagination li a").click(function(){
+                            var offset = parseInt($(this).attr("offsetid"));
+                            techArticleApi(offset,function(res){
+                                if (res.code === '200' && res.data) {
+                                    var pageTechAriticle = $("#pageAriticle").html();
+                                    var tTemplate = Handlebars.compile(pageTechAriticle);
+                                    var tHtml = tTemplate(res.data);
+                                    $("#tech").html(tHtml);
+                                    var hrTemplate = Handlebars.compile($("#relatedNews").html());
+                                    $("#related-news").html(hrTemplate(res.data));
+                                    goDetail();
+                                }
+                            });
+                        });
+                    }
+                });
+            }
+            // function paging(){
+                
+            // }
+        </script>
+    </body>
+</html>

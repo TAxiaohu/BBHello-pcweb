@@ -1,0 +1,121 @@
+.wrap{
+	margin-top: 50px;padding: 0;
+}
+.header-title {
+	border-bottom: #e6e6e6 solid 1px;
+	padding-bottom: 20px;
+}
+.seller-detail {
+	height: 80px;
+	margin: 30px 0;
+	border: #ec7688 solid 1px;
+}
+.seller-detail .s-name {
+	width: 78%;
+	font-size: 150%;
+	line-height: 80px;
+	padding-left: 30px;
+	display: inline-block;
+}
+.seller-detail .s-price {
+	line-height: 70px;
+	border-left: dashed #e6e6e6 1px;
+	width: 20%;
+	display: inline-block;
+	text-align: center;
+}
+.pay-box {
+	border: #e6e6e6 solid 1px;
+	padding: 15px 35px 50px 35px;
+	margin: 0;
+}
+.pay-box .wcpay {
+	float: left;
+	padding-right: 5%;
+}
+.pay-box .col-xs-6{
+	display: inline-block;
+}
+.pay-box .pay-wrap{
+	width: 250px;
+	float: right;
+}
+.pay-box .wc-logo {
+	text-align: center;
+	margin: 15px 0;
+	line-height: 30px;
+}
+.pay-box .wc-qrcode {
+	padding: 10px;
+	border: solid #e6e6e6 1px;
+	margin-bottom: 20px;
+}
+.pay-box .wc-qrcode img{
+	width: 100%;
+}
+.pay-box .pay-tip {
+	background-color: #ec7688;
+	padding: 10px 15px 10px 80px;
+	background-image: url("../img/icon-pay-scan.png");
+	background-repeat: no-repeat;
+	background-size: 40px;
+	background-position: 25px center;
+	text-align: left;
+	color: #fff;
+}
+.pay-box .mbl-img {
+	padding-top: 60px;
+	height: 400px;
+}
+@media (min-width: 320px) and (max-width: 767px){
+	h3{
+		font-size: 20px;
+	}
+	.wrap{
+		padding: 15px;
+		margin-top: 0;
+	}
+	.header-title{
+		margin: 0;
+	}
+	.seller-detail{
+		margin: 15px 0;
+		height: 60px;
+	}
+	.seller-detail .s-name {
+		font-size: 120%;
+		padding-left: 10px;
+		width: 62%;
+		line-height: 55px;
+	}
+	.seller-detail .s-price {
+		min-width: 101px;
+		line-height: 55px;
+	}
+	.pay-box{
+		padding: 15px;
+	}
+	.pay-box h3{
+		margin: 0;
+	}
+	.pay-box .pay-wrap{
+		float: none;
+	}
+	.s-price .big-font {
+		font-size: 160%;
+	}
+	.pay-box .wcpay {
+		float: none;
+		width: 100%;
+		padding: 0;
+	}
+	.pay-box .wc-qrcode{
+		padding: 5px;
+	}
+	#mobile-img{
+		display: none;
+	}
+	footer {
+		margin-top: 15px;
+	}
+}

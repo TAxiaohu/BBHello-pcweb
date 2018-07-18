@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>51二胎-海外生育权威机构 | 泰国试管婴儿 | 三美泰独家授权</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=2.0">
+        <meta name="description" content="51二胎医疗海外试管婴儿,泰国权威医院,三美泰独家授权。运用顶尖基因筛查技术,大大降低流产率。第三代aCGH\PGD\PGS技术,筛查300种以上遗传疾病,助您好孕……">
+        <meta name="keywords" content="51二胎">
+        <meta name="author" content="51二胎">
+        <!-- Site CSS -->
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+          <script src="../js/lib/html5shiv.min.js"></script>
+          <script src="../js/lib/respond.min.js"></script>
+        <![endif]-->
+        <!-- <link rel="canonical" href="http://www.bootcss.com/"> -->
+        <script src="../js/lib/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/lib/handlebars.js"></script>
+        <script type="text/javascript" src="../js/service.js"></script>
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/page.css">
+        <link rel="stylesheet" href="../css/login.css">
+    </head>
+    <body style="padding: 0;" onkeypress="autoEnter('#forgetpsw')">
+        <div id="page-forgetpsw">
+            <div class="parallax">
+                <div class="parallaxImg parallaxImg-header"></div>
+            </div>
+            <div class="container" align="center">
+                <div class="form-box">
+                    <a href="../index.html" class="form-header">
+                        <div class="login-title">找回密码</div>
+                    </a>
+                    <div class="form-body">
+                        <div class="form-group">
+                            <input type="tel" class="form-control" id="tel" placeholder="手机号码">
+                            <div class='warn input-tel'>请输入手机号码</div>
+                            <input type="password" class="form-control" id="password" placeholder="新登录密码">
+                            <div class='warn input-password'>请输入密码</div>
+                            <input type="password" class="form-control" id="submit-password" placeholder="确认登录密码">
+                            <div class='warn input-submit-pwd'>两次密码不一致</div>
+                            <input type="text" class="form-control pull-left" id="identify-code" placeholder="验证码">
+                            <a id="send-identify-code" class="color-blue" onclick="sendIdfCode()">发送验证码</a>
+                            <div class='warn input-idf-code'>请输入验证码</div>
+                        </div>
+                        <div class="btn-forgetpsw">
+                            <a id="forgetpsw"  class="btn btn-primary" role="button">提交重置</a>
+                        </div>
+                        <div class="form-footer">
+                            <div>想起密码?<a class="color-blue" href="login.html">立即登录</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="footer-top container">
+                    <div class="col-xs-3">
+                        <h4>关于我们</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="about.html#about">51二胎简介</a></li>
+                            <li><a href="about.html#contact">联系我们</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-3">
+                        <h4>加入我们</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="about.html#employ">招聘职位</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-3">
+                        <h4>网站条款</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="terms.html#member">会员条款</a></li>
+                            <li><a href="terms.html#copyright">版权声明</a></li>
+                            <li><a href="terms.html#relief">免责声明</a></li>
+                            <li><a href="terms.html#web">网站声明</a></li>
+                            <li><a href="terms.html#secret">隐私条款</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-3" style="padding-right:0">
+                        <h4>联系我们</h4>
+                        <ul class="list-unstyled">
+                            <li><a style="cursor: default;">电话 400-136-5151</a></li>
+                            <li><a style="cursor: default;">QQ 2532535151</a></li>
+                            <li><a style="cursor: default;">QQ 2602605151</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-3 footer-qrcode">
+                        <h4>微信公众号</h4>
+                        <img class="qrcode-img" src="../img/qrcode.jpg">
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="container">
+                        <div class="brand-info">
+                            <img src="../img/logo-white.png">
+                            <p>Copyright &copy; 2015 - 2016, 51二胎&reg;, All Rights Reserved. <a href="http://www.miibeian.gov.cn/">粤ICP备16027439号</a></p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script type="text/javascript" src="../js/lib/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../js/main.js"></script>
+        <script type="text/javascript">
+            var telData = {};
+            var c=60;
+            var t;
+            var data = {};
+            $("#forgetpsw").click(function(){
+                $(".warn").css("visibility","hidden");
+                if (mobileNumTest($("#tel").val())) {
+                    if ($("#password").val()) {
+                        if ($("#submit-password").val() && $("#password").val()===$("#submit-password").val()) {
+                            if ($("#identify-code").val()) {
+                                data.cellphone = $("#tel").val();
+                                data.newPassword = $("#password").val();
+                                data.phoneCode = $("#identify-code").val();
+                                forgetPswApi(data,function(res){
+                                    if (res.code === '200') {
+                                        window.location.href="../index.html";
+                                    }
+                                });
+                            } else {
+                                $(".input-idf-code").css("visibility","visible");
+                            }
+                        } else {
+                            $(".input-submit-pwd").css("visibility","visible");
+                        }
+                    } else {
+                        $(".input-password").css("visibility","visible");
+                    }
+                } else {
+                    $(".input-tel").css("visibility","visible");
+                }
+            });
+        </script>
+    </body>
+</html>

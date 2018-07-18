@@ -1,0 +1,125 @@
+.parallax {
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1
+}
+.parallaxImg{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.parallaxImg:before {
+    background-position-x: center;
+    position: absolute;
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.parallaxImg-header::before {
+    background-image: url(../img/register-bg.png);
+}
+.warn{
+	padding-left: 15px;
+}
+.main-bg {
+	width: 100%;
+	position: absolute;
+	z-index: -1;
+}
+.form-box {
+	width: 42%;
+	margin-top: 5%;
+	margin-bottom: 8%;
+}
+.form-box .form-header {
+	background-color: rgba(0,0,0,0.5);
+	height: 80px;
+	display: block;
+}
+.form-box .form-header .login-title {
+	background-image: url(../img/logo-white.png);
+	background-position: 27% center;
+	background-repeat: no-repeat;
+	background-size: 15%;
+	font-size: 185%;
+	color: #fff;
+	line-height: 80px;
+	text-align: center;
+}
+.form-body .btn{
+	width: 100%;
+	height: 60px;
+	font-size: 185%;
+	line-height: 28px;
+	padding: 15px;
+}
+.form-body #identify-code{
+	width: 50%;
+}
+.form-body #send-identify-code {
+	display: block;
+	font-size: 120%;
+	line-height: 60px;
+	height: 60px;
+}
+#page-forgetpsw .form-body .btn-forgetpsw,
+#page-register .form-body .btn-register {
+	margin-bottom: 30px;
+}
+#page-register .form-body label{
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 22px;
+}
+#page-register .form-body #readme {
+	margin-bottom: 0px;
+}
+#page-register #modal-protocol .context {
+	border: #e6e6e6 solid 1px;
+	overflow: scroll;
+	padding: 15px;
+	margin-bottom: 15px;
+	text-align: left;
+}
+
+@media (min-width: 320px) and (max-width: 450px){
+	.form-box{
+		width: 100%;
+	}
+	.form-box .form-header{
+		height: 50px;
+	}
+	.form-box .form-header .login-title{
+		font-size: 140%;
+		line-height: 50px;
+	}
+	.form-body .form-group input{
+		height: 40px;
+	}
+	.form-body .btn{
+		height: 40px;
+		padding: 0;
+		font-size: 140%;
+		line-height: 40px;
+	}
+	.form-body .forget-psw{
+		padding: 10px 0;
+	}
+	.form-footer{
+		padding: 10px 0 0 0;
+	}
+	.form-body #send-identify-code{
+		height: 40px;
+		line-height: 40px;
+	}
+	#page-forgetpsw .form-body .btn-forgetpsw, #page-register .form-body .btn-register {
+		margin-bottom: 15px;
+	}
+	#page-register .form-group{
+		margin-bottom: 0;
+	}
+}

@@ -1,0 +1,116 @@
+.wrap{
+	margin-top: 50px;
+	padding: 0;
+}
+.left{
+	width: 21%;
+	float: left;
+	font-size: 140%;
+	text-align: center;
+}
+.left ul>li {
+	line-height: 25px;
+	margin: 35px 0;
+}
+.left ul>li>a{
+	display: block;
+	color: #4d4d4d;
+	text-decoration: none;
+	line-height: 35px;
+}
+.left .nav .active>a,
+.left .nav>li>a:focus,
+.left .nav>li>a:hover  {
+	font-size: 130%;
+	color: #ec7688;
+	border-bottom: none;
+}
+.right {
+	width: 75%;
+	padding-left: 4%;
+	float: left;
+	padding-top: 15px;
+	border-left: #e6e6e6 solid 1px;
+}
+.right article {
+	color: #4d4d4d;
+	margin-top: 35px;
+}
+.right article section {
+	padding-left: 0px;
+	margin-top: 20px;
+}
+.right article p {
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+.right article h4{
+	margin-top: 30px;
+}
+.left .nav-tabs {
+	border-bottom: none;
+}
+.left .nav-tabs>li {
+	float: none;
+	width: 100%;
+}
+.left .nav-tabs>li>a {
+	border-bottom: none;
+}
+#page-about .right article .title {
+	display: inline-block;
+	width: 100px;
+}
+#page-question .right article h5 {
+	font-weight: bold;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 520px){
+	body {
+		margin-bottom: 30px;
+	}
+	.wrap {
+		margin-top: 0;
+	}
+	.left{
+		width: 100%;
+	    position: fixed;
+	    bottom: 0;
+	    background-color: #9b9b9b;
+	    z-index: 9;
+	}
+	#page-about .left .nav-tabs>li{
+		width: 25%;
+	}
+	#page-terms .left .nav-tabs>li{
+		width: 20%;
+	}
+	#page-service .left .nav-tabs>li{
+		width: 25%;
+	}
+	#page-question .left .nav-tabs>li{
+		width: 33%;
+	}
+	.left .nav-tabs>li {
+		float: left;
+		margin: 0;
+	}
+	.left .nav-tabs>li>a{
+		padding: 7px 0;
+		font-size: 70%;
+		margin-right: 0;
+	}
+	.left .nav .active>a, .left .nav>li>a:focus, .left .nav>li>a:hover{
+		font-size: 70%;
+	}
+	.right {
+		width: 100%;
+		border-left: none;
+	}
+	.right article {
+		margin-top: 0;
+	}
+	
+}

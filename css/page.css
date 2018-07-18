@@ -1,0 +1,759 @@
+body{
+	padding-top: 60px;
+}
+ul{
+	padding: 0;
+}
+.color-gray {
+	color: #9b9b9b;
+}
+.color-blue {
+	color: #ec7688;
+}
+.bolder {
+	font-weight: bolder;
+}
+.warn {
+	color: #ec7688;
+	text-align: left;
+	visibility: hidden;
+}
+.sign {
+	background-color: rgba(0,0,0,0.3);  /*背景色*/
+    bottom: 50px;
+    margin-bottom: -50px;/*高度50px*/
+    position: relative;
+    color: #fff;
+    padding: 15px;
+}
+.text-nowrap {
+	display: block;
+	text-overflow:ellipsis;
+	overflow: hidden;
+	white-space:nowrap;
+}
+.multiline-nowrap {
+	text-overflow:ellipsis;
+	overflow: hidden;
+	display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.right-arrow {
+	background-image: url(../img/icon-right-arrow.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-size: 20px;
+}
+.center {
+	text-align: center;
+}
+.big-font {
+	font-size: 250%;
+}
+	/*detail中小navbar*/
+.content-nav{
+	padding: 0;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+	/*客服*/
+#customer-service {
+	padding: 0px;
+	width: 160px;
+	border: #e6e6e6 solid 1px;
+	bottom: 100px;
+}
+#customer-service a{
+	display: inline-block;
+    background-image: url(../img/icon-cs-qq.jpg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
+    height: 50px;
+    line-height: 49px;
+    width: 140px;
+    font-size: 110%;
+    color: #4d4d4d;
+}
+#customer-service img{
+	position: absolute;
+    width: 100px;
+    right: 20px;
+    top: -75px;
+}
+#customer-service h3{
+	background-color: #ec7688;
+	color: #fff;
+	height: 60px;
+	line-height: 60px;
+	font-size: 140%;
+	margin-top: 0px;
+}
+#customer-service ul>li {
+	height: 50px;
+	line-height: 50px;
+	border-bottom: #e6e6e6 solid 1px;
+}
+#mob-ctm-svc,
+#customer-service {
+	background-color: #fff;
+	position: fixed;
+	right: -0px;
+	z-index: 99;
+}
+#mob-ctm-svc{
+	bottom: 50px;
+	border-radius: 5px;
+}
+#mob-ctm-svc a{
+	display: block;
+}
+	/*styles of footer start*/
+footer {
+	background-color: #262929;
+	margin-top: 60px;
+	border-top: #ec7688 solid 4px;
+}
+footer .container {
+	padding: 15px 0 20px 0;
+}
+footer .footer-bottom {
+	background-color: #1c1e1e;
+}
+footer h4 {
+	color: #9b9b9b;
+	font-weight: bold;
+	border-left: #ec7688 solid 4px;
+	padding-left: 10%;
+	font-size: 110%;
+}
+footer .list-unstyled>li>a {
+	color: #4d4d4d;
+	line-height: 30px;
+	padding-left: 13%;
+}
+footer div:last-child>ul>li>a {
+	padding-left: 12%;
+}
+footer .col-xs-3 {
+	width: 20%;
+}
+footer .brand-info {
+	margin: 10px 0px;
+}
+footer .brand-info img {
+	height: 40px;
+	margin-right: 15px;
+	float: left;
+}
+footer .brand-info p {
+	color: #4d4d4d;
+	font-size: 90%;
+	line-height: 20px;
+}
+footer .qrcode-img {
+	width: 120px;
+	border: #4e4f4f solid 1px;
+	margin-top: 5px;
+	padding: 10px;
+	background-color: #1a1b1b
+}
+	/*巨幕*/
+.jumbotron {
+	padding: 0px;
+}
+.jumbotron .container-fluid {
+	padding: 0px;
+}
+	/*层级导航*/
+.bread-nav{
+	margin-top: 20px;
+	padding: 0;
+}
+	/*share*/
+#page-casedetail .left .share,
+#page-newsdetail .left .share,
+#page-news .news-block .news-info .share {
+	width: 35px;
+	height: 35px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 35px;
+	border-radius: 50%;
+	margin-right: 15px;
+	float: right;
+}
+.left .share-qq:hover {
+	background-image: url("../img/icon-news-shareqq-hover.png");
+}
+.left .share-wechat:hover {
+	background-image: url("../img/icon-news-sharewechat-hover.png");
+}
+.left .share-weibo:hover {
+	background-image: url("../img/icon-news-shareweibo-hover.png");
+}
+.share-qq {
+	background-image: url(../img/icon-news-shareqq.png);
+}
+.share-wechat {
+	background-image: url(../img/icon-news-sharewechat.png);
+}
+.share-weibo {
+	background-image: url(../img/icon-news-shareweibo.png);
+}
+	/*hospital-block start*/
+.hospital-block {
+	display: block;
+	border: #e6e6e6 solid 1px;
+	padding: 0px;
+	color: #4d4d4d;
+	margin-bottom: 15px;
+}
+.hospital-block img {
+	padding: 20px 0 20px 20px;
+	min-height: 315px;
+}
+.hospital-block .hos-info {
+	padding: 2.5% 2.5% 0 2.5%;
+}
+.hospital-block ul>li {
+	display: inline;
+}
+.hd-block .hos,
+.hospital-block .hos {
+	background-repeat: no-repeat;
+	background-size: 20px;
+	background-position: left center;
+}
+.hos-case {
+	background-image: url(../img/icon-index-recommend.png);
+}
+.hospital-block ul {
+	background-color: #f7f7f7;
+	height: 40px;
+    padding: 5px 0px;
+    margin: 0px;
+    line-height: 30px;
+}
+.hospital-block ul>li {
+	padding-left: 6%;
+	margin-left: 4%;
+	display: inline-block;
+    line-height: 30px;
+}
+.hospital-block table {
+	font-size: 110%;
+	margin-top: 10px;
+}
+.hospital-block table .color-gray {
+	width: 80px;
+}
+.hospital-block .hos-info h3 {
+	margin-top: 0px;
+    margin-bottom: 25px;
+}
+.hospital-block table td, 
+.hospital-block table th {
+	padding: 15px 0px;
+}
+.hospital-block table th {
+	vertical-align: top;
+}
+.red-star,
+.gray-star {
+	display: inline-block;
+    width: 12px;
+    background-repeat: no-repeat;
+    background-size: 14px;
+    background-position: center;
+}
+.red-star {
+	background-image: url("../img/icon-index-redstar.png");
+}
+.gray-star {
+	background-image: url("../img/icon-index-graystar.png");
+}
+	/*下拉三角*/
+.down-triangle {
+	width: 10px;
+	height: 10px;
+	border-top: #ec7688 solid 5px;
+	border-left: transparent solid 5px;
+	border-right: transparent solid 5px;
+	border-bottom: transparent solid 5px;
+	margin-left: 46%;
+}
+.down-menu .up-triangle {
+	position: absolute;
+	top: -16px;
+	right: 15px;
+}
+.up-triangle {
+	width: 16px;
+	height: 16px;
+	border-top: transparent solid 8px;
+	border-left: transparent solid 8px;
+	border-right: transparent solid 8px;
+	border-bottom: #fff solid 8px;
+}
+	/*右侧联系客服*/
+.right .service {
+	width: 100%;
+	padding: 20px;
+	background-color: #f0f0f0;
+}
+.right .service img {
+	padding: 0 15px 0 0;
+}
+	/*seller-block start*/
+.seller-block {
+	margin-bottom: 30px;
+}
+.seller-block .container {
+	padding: 30px 3.5%;
+	border: #e6e6e6 solid 1px;
+	color: #4d4d4d;
+}
+.seller-img {
+	border-right: #e6e6e6 solid 1px;
+    padding: 20px 20px 20px 35px;
+}
+.seller-text ul {
+	margin-top: 15px;
+}
+.seller-text ul>li {
+	height: 50px;
+	line-height: 50px;
+	border-bottom: #e6e6e6 dashed 1px;
+}
+.seller-text ul>li .title {
+	width: 50px;
+	float: left;
+}
+.seller-text ul>li .detail {
+	background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 50px center;
+    padding-left: 85px;
+}
+.seller-text .icon-hos .detail {
+	background-image: url("../img/icon-seller-hos.png");
+}
+.seller-text .icon-meal .detail {
+	background-image: url("../img/icon-seller-meal.png");
+}
+.seller-text .icon-hotel .detail {
+	background-image: url("../img/icon-seller-hotel.png");
+}
+.seller-text .icon-flight .detail {
+	background-image: url("../img/icon-seller-flight.png");
+}
+.seller-block .seller-text ul>li{
+	display: inline;
+}
+.seller-block .seller-text span {
+	padding-right: 20px;
+	line-height: 30px;
+}
+.seller-block .seller-text .descs-row {
+	padding: 15px 0;
+	border-bottom: #e6e6e6 dashed 1px;
+}
+.seller-block .seller-text p{
+	margin: 20px 0 0 0;
+	line-height: 25px;
+}
+.seller-block .seller-text div:last-child {
+	border-bottom: none;
+}
+.seller-block .seller-footer {
+	padding: 10px 3.5%;
+    border-top: none;
+    height: 80px;
+}
+.seller-desc .tips {
+	background-color: #f7f7f7;
+	height: 30px;
+	line-height: 30px;
+}
+.seller-footer div {
+    line-height: 59px;
+    height: 59px;
+    display: block;
+    float: left;
+    color: #ec7688;
+}
+.seller-footer .big-font {
+	font-size: 230%;
+	padding: 0 10px;
+}
+/*nav start*/
+.navbar-inverse .navbar-brand {
+	padding: 0px;
+	height: 60px;
+	line-height: 40px;
+	padding-top: 5px;
+}
+.navbar-default .navbar-brand img,
+.navbar-inverse .navbar-brand img{
+	width: 70%;
+}
+.navbar-inverse #main-nav {
+	font-size: 140%;
+}
+.navbar-inverse #main-nav>li>a{
+	padding-left: 28px;
+	padding-right: 28px;
+	line-height: 30px;
+}
+.navbar-inverse #register {
+	margin-left: 75px;
+    line-height: 58px;
+    margin-bottom: 0px;
+}
+.navbar-inverse #register>a {
+	display: block;
+	color: #fff;
+	font-size: 14px;
+}
+#register {
+	margin-left: 75px;
+}
+#register li>a{
+	color: #fff;
+	padding-left: 0px;
+	padding-right: 0px;
+	height: 30px;
+	line-height: 30px;
+}
+#loged li>div {
+	padding-top: 10px;
+}
+#loged li>a {
+	height: 60px;
+	line-height: 30px;
+}
+	/*个人信息下拉菜单*/
+.down-menu {
+	display: block;
+    position: absolute;
+    right: 25px;
+    top: 60px;
+    border: #e6e6e6 solid 1px;
+    border-top: transparent solid 1px;
+    width: 90px;
+    padding: 0 10px;
+    text-align: center;
+    background-color: #fff;
+}
+.down-menu>a{
+	display: block;
+	color: #4d4d4d;
+	height: 30px;
+	line-height: 30px;
+	border-bottom: #e6e6e6 dashed 1px;
+}
+.down-menu a:last-child{
+	border-bottom: none;
+}
+	/*login-register-forgetpsw-loginmodal*/
+.form-body {
+	padding: 10%;
+	background-color: rgba(255,255,255,0.9);
+}
+.form-body .form-group input {
+	margin-bottom: 0px;
+	height: 60px;
+	width: 100%;
+}
+.form-body .forget-psw {
+	font-size: 110%;
+	padding: 20px 0;
+	width: 100%;
+	text-align: right;
+	line-height: 25px;
+}
+.form-footer {
+	border-top: #d5d5d5 solid 1px;
+	padding: 25px 0px 0px 0px;
+	font-size: 110%;
+	color: #9b9b9b;
+	text-align: left;
+	line-height: 25px;
+}
+.nav .down-triangle {
+	display: none;
+	margin-left: 120%;
+	margin-top: -50%;
+	border-top: #fff solid 5px;
+}
+.nav>li:first-child .down-triangle {
+	display: block;
+}
+#page-hospital .hospital-block {
+	margin-bottom: 30px;
+}
+#page-case .left .news-block,
+#page-news .left .news-block {
+	border: #e6e6e6 solid 1px;
+	margin-top: 20px;
+	display: block;
+}
+#page-seller .thumbnail,
+#page-sellerdetail .thumbnail {
+	padding: 0;
+}
+#page-sellerdetail,
+#page-hospital,
+#page-hospitaldetail,
+#page-casedetail,
+#page-news,
+#page-newsdetail,
+#page-about,
+#page-question,
+#page-terms{
+	padding-top: 10px;
+}
+/*modal*/
+.modal {
+	top:120px;
+}
+.modal .close{
+    position: absolute;
+    z-index: 9999;
+    top: -120px;
+    right: 0px;
+}
+.modal .close img {
+	width: 120px;
+}
+.modal .modal-box {
+	width: 600px;
+	padding: 30px 60px;
+	background-color: #fff;
+	position: relative;
+}
+.modal-box .form-body {
+	padding: 5%;
+}
+.modal label{
+	text-align: right;
+	font-size: 16px;
+	color: #9b9b9b;
+	font-weight: normal;
+	line-height: 40px;
+}
+.modal h3{
+	color: #4d4d4d;
+	padding-bottom: 20px;
+	border-bottom: #e6e6e6 solid 1px;
+}
+.modal .form-group {
+	width: 90%;
+}
+.modal .form-control {
+	margin-bottom: 0px;
+}
+.modal .warn {
+	padding-left: 20px;
+}
+.modal .btn-submit>a,
+.modal .btn-order>a{
+	width: 33%;
+	height: 60px;
+	font-size: 180%;
+	line-height: 46px;
+}
+.modal .radio-inline {
+	float: left;
+    padding-top: 0px;
+}
+.modal .radio-inline>input {
+	margin-top: 12px;
+}
+#modal-success .modal-box {
+	height: 400px;
+}
+#modal-success .modal-box .col-xs-3{
+	height: 150px;
+    line-height: 150px;
+}
+#modal-success .modal-box .col-xs-9 {
+	text-align: left;
+}
+#modal-success .modal-box .col-xs-9 h4 {
+	margin-top: 20px;
+    margin-bottom: 20px;
+}
+#modal-success .modal-box .col-xs-9 p{
+	line-height: 30px;
+}
+@media (min-width: 768px) {
+	#mob-ctm-svc{
+		display: none;
+	}
+}
+@media (max-width: 767px) {
+	footer .footer-qrcode{
+		display: none;
+	}
+	#mob-ctm-svc {
+		display: block;
+	}
+	#page-hospital .hospital-block .hos-img {
+		width: 100%;
+		padding-right: 20px;
+	}
+	#page-hospital .hospital-block .hos-img img {
+		width: 100%;
+	}
+	#page-hospital .hospital-block .hos-info {
+		width: 100%;
+	}
+	.modal {
+		top:80px;
+	}
+	.modal .row {
+		padding: 0 15px;
+	}
+	.modal .modal-box {
+		width: 85%;
+		padding: 10px 0;
+		position: relative;
+	}
+	.modal .close{
+	    position: absolute;
+	    z-index: 9999;
+	    top: -75px;
+	    right: -15px;
+    }
+	.modal .close img {
+		width: 75px;
+	}
+	.modal h3{
+		padding-bottom: 10px;
+		font-size: 20px;
+		margin-top: 10px;
+	}
+	.modal label{
+		font-size: 14px;
+		padding-left: 0;
+		padding-right: 5px;
+	}
+	.modal .warn{
+		padding-left: 0;
+	}
+	.modal .radio-inline{
+		padding-left: 15px;
+	}
+	.modal .form-control{
+		font-size: 14px;
+	}
+	.modal .btn-submit>a, .modal .btn-order>a {
+		width: 50%;
+		height: 50%;
+		line-height: 26px;
+		font-size: 140%;
+	}
+	.form-body .form-group input{
+		height: 40px;
+	}
+	#modal-success .modal-box{
+		height: 350px;
+	}
+	#modal-success .modal-box #success-sbm{
+		margin-top: 25px;
+	}
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+	#page-news .nav-tabs>li {
+		width: 33%;
+	}
+	.form-body .form-group input {
+		padding: 5px 15px;
+		height: 45px;
+	}
+	#page-register .form-body #send-identify-code {
+		line-height: 45px;
+		height: 45px;
+	}
+	#page-login .form-body .btn-register,
+	#page-register .form-body .btn-register {
+		margin-bottom: 30px;
+	}
+	#page-login .form-body .btn-login>a,
+	#page-register .form-body .btn-register>a{
+		height: 45px;
+		line-height: 45px;
+		margin-top: 0px;
+		padding: 0px;
+	}
+	.hospital-block table th,
+	.hospital-block table td {
+		padding: 5px 0;
+	}
+	
+	#page-sellerdetail .sd-block-footer .price {
+		padding-left: 2%;
+	}
+	footer .col-xs-3{
+		padding-right: 0;
+	}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+	#page-my .right table tr>td:last-child,
+	#page-my .right table tr>th:last-child {
+		padding-left: 0px;
+	}
+	.navbar .container {
+		padding:0;
+	}
+}
+@media (min-width: 481px) and (max-width: 767px){
+	#customer-service {
+	display: none;
+	}
+	footer .footer-top .col-xs-3 {
+		min-height: 130px;
+		width: 50%;
+	}
+	footer .footer-top div:last-child {
+		padding-right: 0;
+	}
+	.navbar-default	.navbar-brand img,
+	.navbar-inverse	.navbar-brand img {
+	width: 40%;
+	}
+}
+@media (min-width: 320px) and (max-width: 480px){
+	.hospital-block .hos-img img{
+		min-height: 0px;
+	}
+	.hospital-block .hos-info{
+		padding: 0 20px;
+	}
+	.hospital-block ul>li {
+		padding-left: 10%;
+	}
+	.hospital-block table td, .hospital-block table th {
+		padding: 10px 0;
+	}
+	footer .footer-top .col-xs-3 {
+		min-height: 130px;
+		width: 50%;
+	}
+	footer .footer-top div:last-child {
+		padding-right: 0;
+	}
+	.navbar-brand {
+		padding: 10px 15px;
+	}
+	#customer-service {
+	display: none;
+	}
+	.navbar-default	.navbar-brand img,
+	.navbar-inverse	.navbar-brand img {
+	width: 40%;
+	}
+}

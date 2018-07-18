@@ -1,0 +1,189 @@
+.hd-block {
+	color: #4d4d4d;
+}
+.hd-block .row {
+	border-bottom: #e6e6e6 solid 1px;
+}
+.hd-block .hos {
+	font-size: 110%;
+	display: inline-block;
+	background-size: 25px;
+	padding-left: 35px;
+	line-height: 30px;
+	margin-left: 3%;
+}
+.hd-block .hos-location {
+	background-image: url(../img/icon-hdblock-location.png);
+}
+.hd-block .hos-language {
+	background-image: url(../img/icon-hdblock-language.png);
+}
+.hd-block .hos-tag ul{
+	margin: 20px 0;
+}
+.hd-block .hos-tag ul>li:first-child {
+	margin-left: 0px;
+}
+.hd-block .hospital-info {
+	min-width: 320px;
+}
+.hd-block .hospital-info table {
+	margin: 20px 0;
+}
+.hd-block .hospital-info th{
+	color: #9b9b9b;
+	width: 80px;
+	vertical-align: top;
+	line-height: 25px;
+	padding-top: 10px;
+}
+.hd-block .hospital-info td {
+	line-height: 25px;
+	padding-top: 10px;
+}
+.hd-block .hospital-seller {
+	min-width: 280px;
+}
+.hd-block .hospital-seller ul>li{
+	line-height: 30px;
+}
+.hd-block .hospital-seller ul>li>span{
+	float: left;
+}
+.hd-block .hospital-seller ul>li>div{
+	float: left;
+	width: 60%;
+}
+#info p{
+	line-height: 25px;
+}
+.hospital-content h4{
+	font-size: 150%;
+	margin-left: -15px;
+	margin-top: 25px;
+}
+.hospital-content .row {
+	border-bottom: #e6e6e6 solid 1px;
+	padding: 15px 0 15px 4%;
+}
+.hospital-content a{
+	text-decoration: none;
+}
+.hospital-content #seller a{
+	width: 32%;
+	float: left;
+	border-top: #e6e6e6 solid 1px;
+	border-bottom:  #e6e6e6 solid 1px;
+	border-left: #ec7688 solid 3px;
+	border-right: #e6e6e6 solid 1px;
+	margin-left: 2%;
+	padding: 25px;
+	margin-bottom: 35px;
+}
+.hospital-content #seller a:first-child {
+	margin-left: 0px;
+}
+.hospital-content #seller a h5{
+	margin-top: 5px;
+	color: #4d4d4d;
+}
+.hospital-content #seller a p{
+	margin: 0px;
+	color: #9b9b9b;
+}
+.hospital-content #doctor div {
+	padding-right: 7%;
+	text-align: center;
+}
+.hospital-content #doctor .doctor-avatar{
+	display: block;
+	position: relative;
+}
+.hospital-content #doctor .doctor-desc {
+	width: 100%;
+	height: 200px;
+}
+.hospital-content #doctor .doctor-desc>div {
+	text-align: left;
+	display: none;
+	overflow: hidden;
+}
+.hospital-content #doctor p {
+	font-size: 110%;
+	color: #9b9b9b;
+	margin-bottom: 35px;
+}
+.hospital-content #environment {
+	padding-bottom: 35px;
+}
+.hospital-content #environment img {
+	padding-right: 0px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+.hospital-content #location img {
+	padding-bottom: 40px;
+}
+#customer-service {
+	margin-top: 30px;
+}
+.nav-tabs>li {
+	width: 20%;
+}
+@media (min-width: 320px) and (max-width: 767px){
+	.bread-nav {
+		margin-top: 0;
+	}
+	.hd-block h3{
+		margin-top:0;
+	}
+	#context {
+		padding: 0 10px;
+	}
+	.hd-block .hos-tag ul{
+		margin: 10px 0;
+	}
+	.hos-content .col-xs-6{
+		width: 100%;
+		padding: 0;
+	}
+	.hd-block .hospital-info td {
+		padding: 5px 0;
+	}
+	.hd-block .hospital-info table {
+		margin: 10px 0;
+	}
+	.content-nav {
+		margin: 0;
+	}
+	.nav-tabs>li{
+		width: 33%;
+	}
+}
+@media (min-width: 320px) and (max-width: 499px){
+	.hd-block .hos-location{
+		display: none;
+	}
+	.nav>li>a{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	#environment img {
+		width: 100%;
+	}
+	.hd-block .hos {
+		font-size: 90%;
+	}
+	.hospital-content .row{
+		padding-bottom: 0;
+	}
+	footer {
+		margin-top: 15px;
+	}
+	.hospital-content #environment {
+		padding-bottom: 0;
+	}
+	#sellers .icon-yes{
+		background-position: 5px center;
+	}
+}

@@ -1,0 +1,281 @@
+.left,.right{
+	display: inline-block;
+}
+.left {
+	background-color: #f3f3f3;
+	height: 980px;
+}
+.left .avatar .img-circle{
+	width: 70%;
+	height: 70%;
+	border: #e6e6e6 solid 10px;
+	margin-top: -80px;
+}
+.left h4{
+	line-height: 30px;
+}
+.left .nav {
+	padding: 0 5px;
+}
+.left .nav-tabs>li {
+	width: 100%;
+}
+.left .level {
+	width: 33%;
+	margin-left: 33%;
+	margin-right: 33%;
+	background-color: #ec7688;
+	color: #fff;
+	font-size: 160%;
+	line-height: 30px;
+	margin-bottom: 30px;
+}
+.left .nav-tabs>li{
+	border-bottom: #e6e6e6 dotted 1px;
+}
+.left .nav-tabs>li>a{
+	font-size: 16px;
+	padding: 20px 0;
+}
+.left .nav-tabs>li.active>a,
+.left .nav-tabs>li>a:focus,
+.left .nav-tabs>li>a:hover{
+	color: #ec7688;
+	background-color: #f3f3f3;
+	border: none;
+}
+.right table{
+	color: #9b9b9b;
+}
+.right #status .active {
+	border-bottom: #ec7688 solid 5px;
+	border-top: transparent solid 5px;
+}
+.right ul>li .down-triangle {
+	display: inline-block;
+}
+.right table tr:first-child>td,
+.right table tr:first-child>th {
+	padding: 40px 0 10px 4.5%;
+}
+.right table tr>td,
+.right table tr>th{
+	padding: 20px 0 20px 4.5%;
+}
+.right table tr .like-li {
+	text-indent: 2em;
+	background-image: url(../img/icon-black-circle.jpg);
+	background-repeat: no-repeat;
+	background-position: 18% center;
+	background-size: 5px;
+}
+.right .down-triangle{
+	margin-left: 4%;
+}
+.right #order ul>li>ul>li{
+	height: 40px;
+	line-height: 40px;
+}
+.right .tab-content {
+	margin-top: 70px;
+	margin-left: 40px;
+}
+.right #account .row{
+	height: 65px;
+	line-height: 65px;
+}
+.right #account .col-xs-10 {
+	border-bottom: solid #e6e6e6 1px;
+}
+.right #account .row .btn{
+	float: right;
+    margin-top: 15px;
+}
+.right #client .header #add-client{
+	background-image: url("../img/icon-add-client.png");
+}
+.right #client .header #dld-pdf{
+	background-image: url("../img/icon-my-download.png");
+}
+.right #client .header #dld-pdf,
+.right #client .header #add-client{
+	height: 60px;
+    font-size: 150%;
+    width: 200px;
+    margin-top: 30px;
+    line-height: 46px;
+    background-position: 25px center;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    padding-left: 60px;
+}
+.right #order ul>li{
+	border-bottom: #e6e6e6 solid 1px;
+}
+.right #order ul .no-border {
+	border-bottom: none;
+}
+.right #order ul .no-border .success,
+.right #order ul .no-border .ongoing{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 20px;
+	color: #fff;
+}
+.right #order ul .no-border .success {
+	background-image: url("../img/icon-sdblock-yes.png");
+}
+.right #order ul .no-border .ongoing {
+	background-image: url("../img/icon-my-ongoing.png");
+}
+.right #order ul>li>span{
+	height: 60px;
+	line-height: 60px;
+	display: inline-block;
+}
+.right #order ul .like-li {
+	line-height: 30px;
+	height: 30px;
+}
+.right #order .order-time {
+	width: 24%;
+}
+.right #order .order-name {
+	width: 22%;
+}
+.right #order .order-amount {
+	width: 18%;
+}
+.right #order .order-status {
+	width: 33%;
+	text-align: center;
+}
+.right #client table{
+	width: 100%;
+}
+.right #client table tr>th {
+	font-weight: normal;
+	border-bottom: solid #e6e6e6 1px;
+}
+.right #client table tr>td {
+	color: #4d4d4d;
+}
+.right #client table tr>th,
+.right #client table tr>td {
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	padding: 0px;
+}
+.right #client table tr .note{
+	color: #9b9b9b;
+	height: 20px;
+	line-height: 20px;
+	border-bottom: solid #e6e6e6 1px;
+	padding-bottom: 15px;
+	text-align: left;
+}
+#modal-success .modal-box {
+	height: 280px;
+}
+#modal-success .modal-box .col-xs-3{
+	height: 220px;
+    line-height: 220px;
+}
+.review-box textarea {
+	line-height: 20px;
+    width: 76%;
+    font-size: 12px;
+    margin-left: 24%;
+    border: #e6e6e6 solid 1px;
+    padding: 5px 15px;
+}
+.review-box p{
+	line-height: 35px;
+    margin-bottom: 0px;
+    float: right;
+    margin-right: 15px;
+}
+@media (min-width: 320px) and (max-width: 520px){
+	body {
+		margin-bottom: 30px;
+	}
+	footer {
+		margin-top: 25px;
+	}
+	.jumbotron{
+		display: none;
+	}
+	.left{
+		width: 100%;
+	    position: fixed;
+	    bottom: 0;
+	    background-color: #9b9b9b;
+	    z-index: 9;
+	    height: 50px;
+	    padding: 0;
+	}
+	.left .nav{
+		padding: 0;
+	}
+	.nav-tabs{
+		border-bottom: none;
+	}
+	.left .nav-tabs>li:first-child {
+		display: none;
+	}
+	.left .nav-tabs>li{
+		width: 33.33%;
+		border-bottom: none;
+	}
+	.left .nav-tabs>li {
+		float: left;
+		margin: 0;
+	}
+	.left .nav-tabs>li>a{
+		padding: 7px 0;
+		font-size: 110%;
+		margin-right: 0;
+		height: 50px;
+		line-height: 36px;
+	}
+	.left .nav .active>a, .left .nav>li>a:focus, .left .nav>li>a:hover{
+		font-size: 110%;
+	}
+	.right {
+		width: 100%;
+		border-left: none;
+	}
+	.right .tab-content{
+		margin: 0;
+	}
+	.right #order .order-time {
+		display: none;
+	}
+	.right #order .order-name{
+		width:40%;
+	}
+	.right #client .ctm-order,
+	.right #client .ctm-sex{
+		display: none;
+	}
+	.right #client .header #dld-pdf,
+	.right #client .header #add-client{
+		height: 40px;
+	    font-size: 120%;
+	    width: 135px;
+	    margin-top: 15px;
+	    line-height: 28px;
+	    background-position: 5px center;
+	    background-size: 20px;
+	    padding-left: 20px;
+	}
+	.right #client table tr>th, .right #client table tr>td{
+		line-height: 40px;
+		height: 40px;
+	}
+	.right #account .col-xs-2{
+		padding: 0 0 0 15px;
+	}
+	
+}

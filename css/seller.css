@@ -1,0 +1,75 @@
+#context {
+	padding: 0;
+}
+.seller-sum{
+	padding:15px 0;
+	line-height: 30px;
+}
+@media (min-width: 992px) and (max-width: 1199px){
+	.seller-img {
+		border-right: none;
+		margin-top: 15px;
+	}
+	.seller-desc {
+		border-left: #e6e6e6 solid 1px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.seller-img {
+		border-right: none;
+		margin-top: 45px;
+	}
+	.seller-desc {
+		border-left: #e6e6e6 solid 1px;
+	}
+
+}
+@media (min-width: 320px) and (max-width: 767px){
+	.seller-sum{
+		padding: 0 15px;
+	}
+	.jumbotron{
+		display: none;
+	}
+	#context {
+		padding: 0 10px;
+	}
+	.seller-img{
+		border-right: none;
+		width: 100%;
+		padding: 10px 25px;
+	}
+	.seller-desc {
+		width: 100%;
+		padding: 0 25px 10px 25px;
+	}
+	.seller-text ul{
+		margin-top: 0;
+	}
+	.seller-text ul>li{
+		height: 35px;
+		line-height: 35px;
+	}
+	.seller-footer .col-xs-4{
+		padding-right: 0;
+	}
+}
+@media (min-width: 320px) and (max-width: 400px){
+	.seller-desc .tips{
+		font-size: 12px;
+	}
+	.seller-text ul>li .title{
+		width: 30px;
+	}
+	.seller-text ul>li .detail{
+		background-position: 30px center;
+		padding-left: 60px;
+		font-size: 12px;
+	}
+	.sign{
+	    bottom: 30px;
+	    margin-bottom: -30px;
+	    padding: 5px;
+	}
+
+}
